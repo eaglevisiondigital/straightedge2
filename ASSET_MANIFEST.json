@@ -1,0 +1,86 @@
+{
+  "repo": "eaglevisiondigital/straightedge2",
+  "source_reference": "reference/approved-homepage.png",
+  "brand_reference": "reference/approved-logo-original.png",
+  "assets": [
+    {
+      "file": "assets/christmas-lights.webp",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3ec1345c08439e5e9e44ecca418533797816a46bda02f1a8f94f3ff711cd27cf"
+    },
+    {
+      "file": "assets/construction.webp",
+      "width": 1672,
+      "height": 941,
+      "sha256": "8b3f41d6da122e6d4e3586e77f4713cf2fa7b8464781979257b31fc8c3c313ec"
+    },
+    {
+      "file": "assets/deck-dock.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "94cbc5140db39c6760d95cde198182bfe0b2f2ed64821913dd999bc5d52591cc"
+    },
+    {
+      "file": "assets/doors-locks.webp",
+      "width": 1916,
+      "height": 821,
+      "sha256": "24f1bea2851e3a86ac80c6a3c1c4802b55555d8579e9c3ccee4166240d86ddac"
+    },
+    {
+      "file": "assets/drywall.webp",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f6c55391d994905cded82444780ac5c2eecf811cedc28eed85c0948f8b97c93d"
+    },
+    {
+      "file": "assets/favicon.png",
+      "width": 192,
+      "height": 192,
+      "sha256": "d4839296ed4859a2baf2771152c93a8dc1554a12e0322b90980689b203ea45bc"
+    },
+    {
+      "file": "assets/fencing.webp",
+      "width": 1619,
+      "height": 971,
+      "sha256": "003264f749a4a377a60e7508fa0a2fd9ab61dca589043d71779c3a059cde86fa"
+    },
+    {
+      "file": "assets/hero-coastal-home.webp",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2f058896f0595ba0e501af343913454deeec763e000d95a685b82516a10236df"
+    },
+    {
+      "file": "assets/landscaping.webp",
+      "width": 1672,
+      "height": 941,
+      "sha256": "931335016c14463bc0825543827c1be81e89e05fc9aa49d28dfc3806d3a82fcd"
+    },
+    {
+      "file": "assets/mailboxes.webp",
+      "width": 856,
+      "height": 422,
+      "sha256": "e38c4e73283046f31ef7fa9252c82f07ddfcefe0aff1ee5ab601fa5ee9c8ac35"
+    },
+    {
+      "file": "assets/property-care.webp",
+      "width": 1774,
+      "height": 887,
+      "sha256": "70bddc631be30603ac38b2bf95b718c735a2b50f7ab7d774174dbadcba69bd12"
+    },
+    {
+      "file": "assets/straightedge-logo-header.png",
+      "width": 297,
+      "height": 77,
+      "sha256": "45057771939310bab71459b0522a7fd719207e718623dd7a7416738ed97471db"
+    }
+  ],
+  "status": {
+    "local_static_validation": "passed",
+    "responsive_browser_visual": "blocked by browser security policy",
+    "github_pushed": false,
+    "netlify_published": false,
+    "netlify_form_submission_tested": false
+  }
+}
