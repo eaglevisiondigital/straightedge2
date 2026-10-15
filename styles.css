@@ -21,8 +21,9 @@
   .hero,.hero-content{min-height:0}
   .hero-content{justify-content:flex-start;padding-top:52px;padding-bottom:32px}
   .hero-copy{width:100%;min-width:0}
-  .hero .actions{display:grid;grid-template-columns:minmax(0,1fr);gap:12px;width:100%;max-width:390px}
-  .hero .actions .btn{width:100%;min-width:0;min-height:52px;padding:13px 18px}
+  .hero .actions{display:grid;grid-template-columns:minmax(0,1fr);gap:12px;width:100%;max-width:390px;margin-inline:auto}
+  .hero .actions .btn{position:relative;width:100%;min-width:0;min-height:52px;padding:13px 48px;justify-content:center;text-align:center}
+  .hero .actions .btn span[aria-hidden="true"]{position:absolute;right:22px;top:50%;transform:translateY(-50%)}
   .hero-bottom{width:100%;margin-top:64px}
   .hero .value-symbol{width:34px;height:34px;margin-bottom:10px}
   .values{grid-template-columns:repeat(4,minmax(0,1fr));gap:7px}
