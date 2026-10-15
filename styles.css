@@ -8,3 +8,5 @@
 @media (min-width:721px) and (max-width:980px){.hero-script{display:none}.hero-bottom{justify-content:flex-start}.values{width:100%;grid-template-columns:repeat(4,minmax(0,1fr))}}
 /* Let form grid items shrink without clipping long select labels. */
 .fields-two>label,.estimate-form,.form-intro{min-width:0}
+/* Match the approved desktop mockup's hero height and service-card gutters. */
+@media(min-width:1201px){.hero,.hero-content{min-height:750px}.hero-content{width:min(1440px,calc(100% - 108px))}.services{padding:22px 0 14px}.services .container{width:min(1440px,calc(100% - 48px))}.services .section-heading{margin-bottom:18px}.care,.care-photo{min-height:340px}}
