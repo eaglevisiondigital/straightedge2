@@ -50,3 +50,31 @@
   .why-values{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:22px}
   .why-values b{font-size:17px}
 }
+
+/* Shared footer Contact Us form: original estimate form remains unchanged on homepage. */
+.footer-inquiry{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(28px,5vw,75px);align-items:start;padding-bottom:53px;margin-bottom:32px;border-bottom:1px solid #484848}
+.footer-inquiry-copy{min-width:0;padding-top:15px}
+.footer-inquiry-copy .kicker{color:#ff4658;margin:0 0 17px}
+.footer-inquiry-copy h2{font-size:clamp(40px,4vw,62px);line-height:1.02}
+.footer-inquiry-copy h2 span{color:var(--red)}
+.footer-inquiry-copy>p:not(.kicker){max-width:510px;color:#dedede;line-height:1.7}
+.footer-direct-contact{display:grid;gap:13px;margin-top:32px;font-weight:700}
+.footer-direct-contact a{overflow-wrap:anywhere}
+.footer-direct-contact a:hover{color:#ff5262}
+.footer-inquiry-copy .footer-service-note{font-size:13px;color:#c7c7c7;margin-top:24px}
+.footer-estimate-form{min-width:0;color:#141414;background:#fff;box-shadow:0 12px 30px #0004}
+.footer-estimate-form .fields-two>label{min-width:0}
+@media(max-width:900px){
+  .footer-inquiry{grid-template-columns:1fr;gap:25px}
+  .footer-inquiry-copy{padding-top:0}
+  .footer-inquiry-copy h2{font-size:48px}
+  .footer-estimate-form{width:100%;max-width:780px}
+}
+@media(max-width:720px){
+  .footer-inquiry{padding-bottom:34px;margin-bottom:30px}
+  .footer-inquiry-copy h2{font-size:clamp(36px,10vw,48px)}
+  .footer-estimate-form{padding:25px}
+  .footer-estimate-form .fields-two{grid-template-columns:1fr;gap:17px}
+  .footer-direct-contact{margin-top:22px}
+}
+@media(max-width:360px){.footer-estimate-form{padding:18px}}
