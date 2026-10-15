@@ -78,9 +78,9 @@
   ],
   "status": {
     "local_static_validation": "passed",
-    "responsive_browser_visual": "blocked by browser security policy",
-    "github_pushed": false,
-    "netlify_published": false,
-    "netlify_form_submission_tested": false
+    "responsive_browser_visual": "tested in Chromium at 1440, 1024, 768, 390, 320; see QA_STATUS.md for mockup differences",
+    "github_pushed": true,
+    "netlify_published": true,
+    "netlify_form_submission_tested": true
   }
 }

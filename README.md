@@ -14,6 +14,6 @@ Static HTML/CSS/JS. Netlify publish directory: `.` and no build command. The est
 
 `python3 -m http.server 8080` then open `http://localhost:8080`.
 
-## Outstanding verification
+## Verification
 
-Compare real hosted screenshots at 1440, 1024, 768, 390, and 320px against the design. Validate successful Netlify form submission and notifications on hosted site. Replace example gallery text only when genuine Cody project photos are available. The mockup mentions a 2024 copyright; website uses current year dynamically.
+See QA_STATUS.md for responsive checks, approved-reference differences, and the captured synthetic Netlify Forms test. Local QA screenshots are excluded from Git. Production is deployed automatically from main.
